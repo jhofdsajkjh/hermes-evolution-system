@@ -1,22 +1,31 @@
 # Hermes Evolution System
+[![Stars](https://img.shields.io/github/stars/jhofdsajkjh/hermes-evolution-system?style=social)](https://github.com/jhofdsajkjh/hermes-evolution-system)
+Status: Stable | License: MIT
 
-## 神级基因 + 顶级代码
+## Features
+- 自动进化：基因变异、交叉、选择闭环
+- 基因库：可复用基因序列集合
+- 闭环验证：实验结果直接反馈基因选择
 
-Hermes Agent 自我演进系统，目标是打造"神级基因"（最优质的代码模版）和"顶级代码"（经过验证的最佳实践）。
+## Installation
+\`\`\`bash
+git clone https://github.com/jhofdsajkjh/hermes-evolution-system.git
+cd hermes-evolution-system
+pip install -r requirements.txt
+\`\`\`
 
-### 核心组件
+## Usage
+\`\`\`bash
+python evolve.py    # 运行进化
+\`\`\`
 
-- `genes/` - 代码基因库（可复用的最佳实践）
-- `evolve.py` - 演进主程序
-- `闭环.md` - 演进闭环文档
+## Architecture
+- \`genes/\`: 基因库目录
+- \`evolve.py\`: 进化主程序
+- \`闭环.md\`: 进化机制说明
 
-### 演进流程
+## Contributing
+提交前通过测试，更新文档。
 
-1. 学习（从优秀源码提取基因）
-2. 验证（通过测试确保基因有效）
-3. 沉淀（存入知识池）
-4. 复利（下一代基于前代积累）
-5. 进化（基因突变和选择）
-
----
-Powered by Hermes Agent
+## License
+MIT
